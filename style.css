@@ -145,7 +145,10 @@ a {
 
     .dark-mode {
         background-position: center 100px;
+    }
 
+    .dark-mode .flex-container {
+        margin-top: 5em;
     }
 
     .attributes {
@@ -164,8 +167,6 @@ a {
 
     .flex-container {
         margin-left: 1em;
-        margin-top: 5em;
     }
-
 
 }
