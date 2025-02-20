@@ -140,3 +140,32 @@ a {
 .second {
     display: flex;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .dark-mode {
+        background-position: center 100px;
+
+    }
+
+    .attributes {
+        width: 60%;
+    }
+
+    .intro {
+        width: 90%;
+        text-align: ;
+    }
+
+    .headline {
+        margin-left: 1em;
+        text-align: center;
+    }
+
+    .flex-container {
+        margin-left: 1em;
+        margin-top: 5em;
+    }
+
+
+}
