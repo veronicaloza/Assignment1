@@ -1,0 +1,142 @@
+body {
+    overflow-x: hidden;
+}
+
+.button {
+    width: 90px;
+    height: 30px;
+    border: 0.75px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+    border-radius: 60px;
+}
+
+.circle-button {
+    width: 90px;
+    height: 30px;
+    border: 0.75px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background: transparent;
+    border: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.dark-mode {
+    background-image: url(white-simple-empty-box-3d-render-free-photo.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.dark-mode .flex-container {
+    color: white;
+    margin-top: 4em;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+.intro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    width: 47%;
+    text-align: justify;
+    align-items: center;
+}
+
+.headline {
+    margin-left: 2em;
+}
+
+.attributes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    text-decoration: none;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.morph-container-aesthetic {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.letter-wrapper {
+    display: inline-block;
+    width: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.letter {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 1s ease, filter 1s ease;
+    opacity: 0;
+    filter: blur(0.03em);
+    white-space: pre;
+}
+
+.letter.visible {
+    opacity: 1;
+    filter: blur(0);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: black;
+    flex-wrap: wrap;
+    line-height: 1px;
+    margin-left: 10em;
+    margin-top: 3em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.first {
+    display: flex;
+}
+
+.second {
+    display: flex;
+}
