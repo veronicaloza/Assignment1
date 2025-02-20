@@ -14,7 +14,7 @@ toggleButton.addEventListener("click", function () {
 });
 
 
-// alert('Read Text Out loud for Interactivity & Enjoy!');
+alert('Read Text Out loud for Interactivity & Enjoy!');
 const fonts = [
     '"erotica-big", sans-serif',
     // '"glammo", sans-serif',
